@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crete+Round:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merienda:wght@300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg');
+  background-size: cover;
+}
+
+.startContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10rem;
+
+}
+
+.getHeading {
+  font-size: 5rem;
+  font-family: "Montserrat";
+}
+
+.p {
+  font-size: 2rem;
+  font-family: "Montserrat";
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.logo {
+  transform: scale(1.5);
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.solaceH {
+  font-size: 2.5rem;
+  color: #463f3a;
+  font-family: "Montserrat";
+}
+
+button {
+  padding: 1.2rem;
+  border-width: 0;
+  margin: auto;
+  margin-top: 1.5rem;
+  background-color: #665c55;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.getBtn {
+  padding: 1.2rem;
+  border-width: 0;
+  margin: auto;
+  margin-top: 1.5rem;
+  background-color: #665c55;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.getBtn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.evenContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.cardH {
+  font-size: 3rem;
+  font-family: "Libre Baskerville", serif;
+  color: #0a2e56;
+}
+
+.newBieGif {
+  width: 50%;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+.signP {
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding-left: 2rem;
+  padding-right: 1rem;
+  line-height: 1.8;
+  margin-top: 1.5rem;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.signupImg {
+  transform: scale(1.3);
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  height: 600px;
+}
+
+.Signbtn {
+  padding: 0.9rem;
+  border-width: 0;
+  width: 120px;
+  margin: auto;
+  margin-top: 1.5rem;
+  background-color: rgb(21, 94, 239);
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 2rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.NxtBtn {
+  padding: 0.9rem;
+  border-width: 0;
+  width: 120px;
+  margin: auto;
+  margin-top: 1.5rem;
+  background-color: #665c55;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 2rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.LoginContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.loginImg {
+  height: 700px;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+  transform: scale(1.3);
+}
+
+br {
+  padding-top: 2rem;
+}
+
+
+.NxtBtn:hover {
+  background-color: #764a40;
+  transform: translateY(-2px);
+}
+
+.Signbtn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.upload {
+  display: flex;
+}
+
+.uploadSvg {
+  transform: scale(1.5);
+  border: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  width: 100px;
+}
+
+.uploadImg {
+  width: 650px;
+  height: 550px;
+
+}
+
+.uploadH {
+  padding-top: 0.5rem;
+}
+
+.chatVideo {
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
+
+.chatContainer {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+spam {
+  color: #861cc3;
+  font-size: 25px;
+  font-family: "Crete Round", serif;
+  font-weight: 700;
+
+}
+
+.FaqContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem;
+}
+
+.FaqContainer h1 {
+  margin-bottom: 2rem;
+}
+
+.Faqs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.FaqContainerBox {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: solid black 2px;
+  background: rgb(6, 3, 61);
+  color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  transition: ease 1s;
+  margin: 2rem;
+  transition: background-color 0.3s, transform 0.5s;
+}
+
+.FaqContainerBox p {
+  line-height: 1.7;
+}
+
+.FaqContainerBox:hover {
+  border: solid white 2px;
+  background-color: #09065a;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width:576px) {
+
+  body,
+  html {
+    overflow-x: hidden !important;
+  }
+
+  .evenContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .signupImg {
+    transform: scale(0.5);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    height: 450px;
+  }
+
+  .LoginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .rightContainer {
+    order: 1;
+  }
+
+  .loginImg {
+    height: 500px;
+    align-self: flex-start;
+    order: 0;
+  }
+
+  .uploadImg {
+    width: 450px;
+    height: 380px;
+    margin-bottom: 2rem;
+
+  }
+
+  .uploadSvg {
+    transform: scale(1);
+    border: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    width: 150px;
+  }
+
+  .chatVideo {
+    border-radius: 2rem;
+    margin-right: 2rem;
+    height: 300px !important;
+    width: 400px !important;
+    margin-bottom: 2rem;
+  }
+
+  .accessImg {
+    width: 400px;
+  }
+
+  .getHeading {
+    font-size: 3rem;
+    font-family: "Montserrat";
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .p {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .solaceH {
+    font-size: 2rem;
+    color: #463f3a;
+    font-family: "Montserrat";
+  }
+
+  .FaqContainerBox {
+    padding: 3rem;
+    border-radius: 1rem;
+    transition: ease 1s;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardH {
+    font-size: 2.1rem;
+  }
+}
