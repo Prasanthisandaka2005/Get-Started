@@ -7,7 +7,8 @@
   font-family: "Ubuntu Sans", sans-serif;
 }
 
-body {
+body,
+html {
   overflow-x: hidden;
 }
 
@@ -280,7 +281,7 @@ spam {
   transform: scale(1.05);
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:992px) {
 
   body,
   html {
